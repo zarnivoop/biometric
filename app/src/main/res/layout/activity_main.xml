@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.rincewind.biometric.MainActivity"
+    android:background="@color/common_google_signin_btn_text_light_disabled">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="Registrera"
+        android:id="@+id/btnRegister"
+        android:drawableLeft="@drawable/register"
+        android:layout_width="249dp"
+        style="@android:style/Widget.Button.Small"
+        tools:layout_editor_absoluteY="525dp"
+        tools:layout_editor_absoluteX="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp" />
+
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="89dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteY="25dp"
+        tools:layout_editor_absoluteX="65dp"
+        android:id="@+id/imageView3"
+        android:layout_marginEnd="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="Concept 3"
+        android:id="@+id/concept3"
+        style="@android:style/Widget.Button.Small"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:drawableLeft="@drawable/iconvoice"
+        tools:layout_editor_absoluteY="383dp"
+        android:layout_width="300dp"
+        tools:layout_editor_absoluteX="60dp"
+        android:layout_below="@+id/concept2"
+        android:layout_alignStart="@+id/concept2"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:text="Concept 2"
+        style="@android:style/Widget.Button.Small"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:drawableLeft="@drawable/iconfacialvoice"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="309dp"
+        android:id="@+id/concept2"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/concept1"
+        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@+id/concept1" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="Concept 1"
+        style="@android:style/Widget.Button.Small"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:drawableLeft="@drawable/iconfacial"
+        android:layout_width="300dp"
+        tools:layout_editor_absoluteY="239dp"
+        tools:layout_editor_absoluteX="60dp"
+        android:id="@+id/concept1"
+        android:layout_marginTop="144dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3" />
+</RelativeLayout>
